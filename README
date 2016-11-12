@@ -3,4 +3,4 @@
 	
  	master (4.3.4) | 3.3.5
   :------------: | :------------:
-  [![master Build Status](https://travis-ci.org/TrinityCore/TrinityCore.svg?branch=master)
+[![master Build Status](https://travis-ci.org/TrinityCore/TrinityCore.svg?branch=master)](https://travis-ci.org/TrinityCore/TrinityCore) | [![4.3.4 Build Status](https://travis-ci.org/TrinityCore/TrinityCore.svg?branch=3.3.5)](https://travis-ci.org/TrinityCore/TrinityCore)
