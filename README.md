@@ -6,6 +6,9 @@ ZerosCore
 World of warcraft for 4.3.4 version.
 
 Build Status
+
+Linux --> Error
+Windows--> Only
 ========
 
 Master (Blizzlike): ![alt tag](http://i.imgur.com/5VgVP3D.png)
