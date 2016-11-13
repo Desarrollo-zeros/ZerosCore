@@ -14,18 +14,7 @@ source_group(Custom FILES ${scripts_Custom})
 set(scripts_STAT_SRCS
   ${scripts_STAT_SRCS}
   ${scripts_Custom}
-  Custom/Duel_Reset.cpp
-  Custom/world_chat.cpp
-  Custom/VIP_System.cpp
-  Custom/Premium_System.cpp
-  Custom/Profesiones.cpp
-  Custom/chat_censure.cpp
-  Custom/killstreak.cpp
-  Custom/VisualWeapon.cpp
-  Custom/NPC_TELEPORT_NOCOMBAT.cpp
-  Custom/npc_1v1arena.cpp
-  Custom/onlyvip.cpp
-  Custom/npc_1v1arena.h
+
 )
 
 message("  -> Prepared: Custom")
