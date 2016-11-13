@@ -64,12 +64,7 @@
 #include "InfoMgr.h"
 #include "PerformanceLog.h"
 //#include "../../scripts/Custom/TemplateNPC.h"
-#ifdef linux
-#include <curses.h>  //On Linux
-#elif _WIN32
-#include <conio.h> //On Windows
-#endif
-
+#include <conio.h>
 
 ACE_Atomic_Op<ACE_Thread_Mutex, bool> World::m_stopEvent = false;
 uint8 World::m_ExitCode = SHUTDOWN_EXIT_CODE;
