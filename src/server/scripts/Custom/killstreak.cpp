@@ -1,5 +1,12 @@
 #include "ScriptPCH.h"
 
+
+struct KillStreak_Info
+ {
+uint32 killstreak;
+uint32 lastkill;
+};
+
 class System_OnKill : public PlayerScript
 {
 public:
@@ -10,11 +17,7 @@ public:
         uint32 KillerGUID = Killer->GetGUIDLow();
         uint32 VictimGUID = Victim->GetGUIDLow();
 
-        struct KillStreak_Info
-        {
-            uint32 killstreak;
-            uint32 lastkill;
-        };
+        
 
         static std::map<uint32, KillStreak_Info> KillStreakData;
 
