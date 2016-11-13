@@ -19,7 +19,11 @@ TER-Server
 #include "Opcodes.h"
 #include "DisableMgr.h"
 #include "Group.h"
-#include "..\..\scripts\Custom\npc_1v1arena.h"
+#ifdef linux
+#include "../../scripts/Custom/npc_1v1arena.h" //Linux
+#elif _WIN32
+#include "..\..\scripts\Custom\npc_1v1arena.h" //Windows
+#endif
 
 void WorldSession::HandleBattlemasterHelloOpcode(WorldPacket& recvData)
 {
